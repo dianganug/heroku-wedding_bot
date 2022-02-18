@@ -63,7 +63,7 @@ venom.create(
     {
         folderNameToken: 'savedToken', //folder name when saving tokens
         mkdirFolderToken: '', //folder directory tokens, just inside the venom folder, example:  { mkdirFolderToken: '/node_modules', } //will save the tokens folder in the node_modules directory
-        headless: true, // Headless chrome
+        headless: false, // Headless chrome
         devtools: false, // Open devtools by default
         useChrome: true, // If false will use Chromium instance
         debug: false, // Opens a debug session
