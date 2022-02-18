@@ -1,0 +1,21 @@
+{
+  "name": "pakpulsapak",
+  "version": "0.1.0",
+  "description": "Bot for pakpulsapak",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nugroho",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "venom-bot": "^4.0.5",
+    "whatsapp-web.js": "^1.15.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
